@@ -15,5 +15,9 @@ Pull code về máy theo tên nhánh
 Commit code
 
     git add files_want_to_commit
-    git commit 'My commit message'
+    git commit -m 'My commit message'
+
+Push code
+
+    git push origin name_branch
 
