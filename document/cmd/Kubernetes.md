@@ -22,3 +22,8 @@ Check kubelet log
 ```sh
 $ journalctl -u kubelet
 ```
+
+Get list namespaces
+```sh
+$ kubectl get namespaces
+```
