@@ -16,3 +16,10 @@ $ rm /etc/fstab
 $ export KUBECONFIG=/etc/kubernetes/admin.conf
 ```
 
+4. On single cluster k8s, if see error pod Pending because 
+'0/1 nodes are available: 1 node(s) had taints that the pod didn't tolerate.', 
+
+run
+```sh
+$ kubectl taint nodes --all node-role.kubernetes.io/master-
+```
